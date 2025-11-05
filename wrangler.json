@@ -1,5 +1,7 @@
 {
   "name": "eta",
   "compatibility_date": "2025-11-05",
-  "assets": "."
+  "assets": {
+    "directory": "."
+  }
 }

@@ -1,20 +1,17 @@
 {
   "name": "eta",
   "compatibility_date": "2025-11-05",
-
-  // Serve static files from the repo root
   "assets": {
     "directory": ".",
+    "include": ["index.html", "assets/**", "static/**"],
     "exclude": [
-      ".git/**",
-      ".wrangler/**",
+      "**/.git/**",
+      "**/.wrangler/**",
       "README.md",
       "LICENSE",
       "**/*.psd",
       "**/*.ai"
     ]
   },
-
-  // Optional: turn off preview subdomains if you don’t need them
   "preview_urls": false
 }
